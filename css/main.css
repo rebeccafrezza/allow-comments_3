@@ -1,0 +1,191 @@
+* 
+{
+	margin: 0;
+}
+body 
+{
+	font-family: Helvetica;
+	max-width: 2000px;
+	margin: 0 auto; 
+	background-color: #DEEFFF;
+}
+h1 { font-size: 2.5em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 0.8em; }
+.clear 
+{
+	clear: both; 
+}
+.container
+{
+	display: table;
+	height: 260px;
+}
+#header 
+{
+	background: #0F466E;
+	color: white;
+	padding: 15px 0 15px 15px;
+}
+#sidebar 	a:link 
+{
+	color: white;
+}
+#sidebar 	a:visited 
+{
+	color: #DEEFFF;
+}
+#sidebar 	a:hover 
+{
+	color: #0068CD;
+}
+#sidebar 	a:active 
+{
+	color: white;
+}
+#main-content 
+{	
+	max-width: 1000px;
+	padding: 0 0 0 10px;
+	vertical-align: top;
+	display: table-cell;
+}
+#sidebar 
+{
+	display: table-cell;
+	position:relative;
+	float: left;
+	color: white;
+	width: 250px;
+	height: 100%;
+	background-color: #0F466E;
+}
+#sidebar ol 
+{
+	margin: 0;
+	padding: 10px;
+}
+#sidebar ul 
+{
+	list-style-type: none; 
+}
+#sidebar li 
+{
+	font-size: 15px;
+	line-height: 30px;
+	list-style-type: none;
+}
+#sidebar p
+{
+	margin: 10px 0;
+}
+
+.error
+{
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px 0 0 32px ;
+	color: red;
+}
+	
+.lesson 
+{
+	background-color: #0F466E;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+.concept 
+{
+	background-color: #DEEFFF;
+	padding: 4px;
+	margin: 10px;
+	color: black;
+}
+.concept-title 
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 8px;
+	text-align: center;
+	color: #294860;
+}
+.concept-description 
+{
+	font-weight: lighter;
+	margin: 8px;
+}
+.code 
+{
+	font-family: Courier;
+	font-size: 13px;
+	color : black;
+	font-weight: bold;
+	padding-left:  4px;
+	padding-right: 4px;
+}
+.form-submission 
+{
+	padding: 0 0 0 2em;
+}
+.comment 
+{
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	width: 653px;
+	background-color: white;
+	padding: 32px;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.comment-user 
+{
+	margin: 0 0 1em 0;
+	padding: 0.1em 0.5em;
+}
+.comment-wall 
+{
+	padding: 1em 0;
+}
+.comment-content 
+{
+	font-size: .8em;
+	margin-top: 10px;
+	padding: 10px 0 10px 60px;
+	
+}
+@media (max-width: 660px) 
+{
+	.next-comment 
+	{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.form-submission 
+	{
+		padding: 0;
+	}
+	.form-submission input[type="submit"] 
+	{
+		margin-top: 0.5em;
+		width: 98%;
+	}
+	.comment-container h4 
+	{
+		font-size: 13px;
+		padding: 32px;
+	}
+}
+@media (max-width: 991px) 
+{
+	.form-submission 
+	{
+		padding: 0;
+	}
+	
+}
+
